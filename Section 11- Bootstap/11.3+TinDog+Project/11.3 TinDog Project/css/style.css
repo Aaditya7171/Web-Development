@@ -1,0 +1,39 @@
+.gradient-background {
+  background: linear-gradient(300deg, #7dd08c, #9574ef, #f67474, #dd75c1);
+  background-size: 180% 180%;
+  animation: gradient-animation 9s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-image {
+  height: 100px;
+  border-radius: 50%;
+}
+.d-block {
+  padding-bottom: 0%;
+}
+
+.doggy {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.w-100 {
+  color: red;
+}

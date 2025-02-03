@@ -1,0 +1,23 @@
+.red {
+    color: red;
+}
+.blue {
+    color:blue;
+}
+.orange {
+    color:orange;   
+}
+.green {
+    color:green;
+}
+   
+.yellow {
+    color:yellow; 
+}
+img {
+    width: 110px;
+    height: 110px;
+}
+#Font-weight {
+font-weight: 100;
+}

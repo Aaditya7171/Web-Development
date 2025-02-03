@@ -1,0 +1,28 @@
+/* Write your code here: */
+
+/* group selector--> selector, .selector, #selector */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* child selector--> parent > child */
+.box > .done {             
+    color: firebrick;
+}
+
+/* descendent selector--> selector1 selector2 (.box--> ancestor, li--> descendent)*/
+.box li {
+    color: blue;
+}
+/* chaining--> apply where are selector are true --> element.id#class */
+li.done {
+    color: seagreen;
+} 
+/* combining combiners */
+ul p.done {
+    font-size: .5rem;
+}
+/* OR we can use child selector*/
+ul > p.done {
+    font-size: .5rem;
+}

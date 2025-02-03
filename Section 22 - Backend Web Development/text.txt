@@ -1,0 +1,23 @@
+
+Introduction to Backend Web Development 
+
+1. Server:
+   - A server is a machine or software that provides services to other programs or devices, known as clients.
+   - It processes requests and sends responses over the network.
+   - Example: A web server hosts websites and handles requests from browsers.
+
+2. Application:
+   - An application is a software program that performs specific tasks for a user or another application.
+   - In backend development, it typically refers to web applications that interact with servers.
+   - Example: A web-based email client like Gmail.
+
+3. Database:
+   - A database is an organized collection of data that can be accessed, managed, and updated.
+   - Backends use databases to store and retrieve data dynamically.
+   - Example: MySQL, MongoDB.
+
+4. Webpage vs. Web Application:
+   - Webpage: A static or dynamic document displayed by the browser.
+     - Example: A blog article or homepage.
+   - Web Application: A more complex, interactive system that allows users to perform tasks.
+     - Example: A social media platform or e-commerce site.
