@@ -20,9 +20,10 @@ code commands.txt
 # Initialize a new Git repository
 git init
 
-# Add files to the Git repository
+# Add files to the Staging Area
 git add chapter1.txt
-git add commands.txt
+
+# Add all the files to Staging Area
 
 # Commit the changes to the Git repository
 git commit -m "Initial commit"
