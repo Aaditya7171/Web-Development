@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  color: #333;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+}
+
+.advice-text {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+.advice-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.advice-btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
