@@ -1,17 +1,65 @@
--- Create a table 
-CREATE TABLE products (
-  id INT NOT NULL,--id can't ne NULL
-  name STRING,
-  price MONEY,
-  PRIMARY KEY (id)
-  );
-
--- Insert records
-INSERT INTO products values (1, 'Pen', 1.20) --insert in each column
-INSERT INTO products (id, name, money) values (1, 'Pen', 1.20) -- insert in selected columns
-
 --Read data from table
 SELECT name, price FROM products
 SELECT DISTINCT name FROM products
 SELECT * FROM products where id = 1
 
+-- create customers table
+CREATE TABLE customers (
+  id INT,
+  first_name STRING,
+  last_name STRING,
+  address STRING,
+  PRIMARY KEY (id)
+);
+-- insert some values
+INSERT INTO customers VALUES (1, 'John', 'Doe', '32 Cherry Blvd');
+INSERT INTO customers VALUES (2, 'Angela', 'Yu', '12 Sunset Drive');
+-- fetch some values
+SELECT * FROM customers WHERE first_name = 'John';
+
+
+-- create the products table
+CREATE TABLE products (
+    id INT NOT NULL,
+    name STRING,
+    price MONEY,
+    PRIMARY KEY (id)
+);
+
+--insert a product into products table
+INSERT INTO products VALUES (1, 'Pen', 1.20);
+
+-- select a product with id = 1
+SELECT * FROM products WHERE id = 1;
+
+--insert a product with no price into products table
+INSERT INTO products (id, name) VALUES (2, 'Pencil');
+
+--select a product with id = 2
+SELECT * FROM products WHERE id = 2;
+
+--update a row in products table
+UPDATE products SET price=0.8 WHERE id = 2;
+
+--select all records from products table
+SELECT * FROM products;
+
+--add a new column - stock to the products table
+ALTER TABLE products ADD stock INT;
+
+--update a row in products table
+UPDATE products SET stock=32 WHERE id = 1;
+
+--select all records from products table
+SELECT * FROM products;
+
+--update a row in products table
+UPDATE products SET stock=12 WHERE id = 2;
+
+--select all records from products table
+SELECT * FROM products;
+
+--delete a row from products table
+DELETE FROM products WHERE id = 2;
+
+--insert back the deleted row into products table
